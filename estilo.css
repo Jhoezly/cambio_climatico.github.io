@@ -1,0 +1,99 @@
+/* Estilo para la página */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #130303;
+    color: rgb(16, 19, 17);
+    background-color: aliceblue;
+  }
+  
+  /* Header Section */
+  header {
+    background: #086b1180; /* Fondo oscuro semi-transparente para mejorar la legibilidad */
+    padding: 20px;
+    color: rgb(12, 9, 9);
+  }
+  
+  /* Menú de navegación */
+  .navbar ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar ul ul {
+    display: none; /* Ocultar submenú */
+  }
+  
+  .navbar li:hover > ul {
+    display: block; /* Mostrar submenú cuando se pasa el mouse */
+    position: absolute;
+    background-color: #0f799c;
+    padding: 10px;
+  }
+  
+  .navbar ul ul li {
+    width: 200px;
+    display: block;
+  }
+  
+  /* Estilo para la imagen de fondo */
+  .background-image-container {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Ajusta la altura de la imagen de fondo */
+  }
+  
+  .background-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hace que la imagen cubra todo el contenedor */
+    object-position: center;
+  }
+  
+  /* Contenido de la página */
+  .contaminación-content {
+    padding: 20px;
+  }
+  
+  /* Estilo para las imágenes dentro del contenido */
+  .contaminacion-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Estilo para la sección de tipos de contaminación */
+  h2 {
+    color: #090a09;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Listado de tipos de contaminación */
+  ol {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  
